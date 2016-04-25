@@ -1,8 +1,9 @@
 $base-color: #cc4d55;
 $secondary-color: #FFFFFF;
-$striked-color: #adadad;
+$striked-color: #e4e4e4;
 
 body, html{
+  font-family: sans-serif;
   background-color: $base-color;
   height: 100%;
   width: 100%;
@@ -19,4 +20,20 @@ body, html{
 .completed{
   text-decoration: line-through;
   color: $striked-color;
+}
+.incomplete{
+  text-decoration: none;
+  color: $secondary-color;
+}
+i{
+  display: block;
+}
+.incomplete:hover{
+  cursor: pointer;
+}
+.completed:hover{
+  cursor: pointer;
+}
+#todo{
+  margin-bottom: 10px;
 }
