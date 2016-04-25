@@ -1,0 +1,18 @@
+body, html {
+  background-color: #cc4d55;
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+  margin: 0 0 0 0; }
+
+.app {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+
+.completed {
+  text-decoration: line-through;
+  color: #adadad; }
+
+/*# sourceMappingURL=main.css.map */

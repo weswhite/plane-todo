@@ -1,0 +1,22 @@
+$base-color: #cc4d55;
+$secondary-color: #FFFFFF;
+$striked-color: #adadad;
+
+body, html{
+  background-color: $base-color;
+  height: 100%;
+  width: 100%;
+  color: $secondary-color;
+  margin: 0 0 0 0;
+}
+.app{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+.completed{
+  text-decoration: line-through;
+  color: $striked-color;
+}
