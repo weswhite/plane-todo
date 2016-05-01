@@ -44,7 +44,6 @@
     function printNewTodo(todo){
         var todoDiv = document.createElement('div');
         todoDiv.innerHTML = todo;
-
         todoDiv.addEventListener('click', function(){
             if(todoDiv.className == "completed") {
                 todoDiv.className = "incomplete";
